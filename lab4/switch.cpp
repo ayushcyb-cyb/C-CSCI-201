@@ -16,23 +16,23 @@ int main()
     {
         case 'A':
             cout << "an A - excellent work !" << endl;
-            //break;
+            break;
 
         case 'B':
             cout << "you got a B - good job" << endl;
-            //break;
+            break;
 
         case 'C':
             cout << "earning a C is satisfactory" << endl;
-            //break;
+            break;
 
         case 'D':
             cout << "while D is passing, there is a problem" << endl;
-            //break;
+            break;
 
         case 'F':
             cout << "you failed - better luck next time" << endl;
-            //break;
+            break;
 
         default:
             cout << "You did not enter an A, B, C, D, or F" << endl;
