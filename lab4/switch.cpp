@@ -12,7 +12,26 @@ int main()
     cout << "What grade did you earn in Programming 1 ?" << endl;
     cin >> grade;
 
-    switch (grade)      // This is where the switch statement begins
+    // Additional switch statement for Pass/Fail
+    switch (grade)
+    {
+        case 'A':
+        case 'B':
+        case 'C':
+        case 'D':
+            cout << "YOU PASSED!" << endl;
+            break;
+
+        case 'F':
+            cout << "YOU FAILED!" << endl;
+            break;
+
+        default:
+            cout << "Invalid grade entered!" << endl;
+    }
+
+    // Original switch statement
+    switch (grade)
     {
         case 'A':
             cout << "an A - excellent work !" << endl;
