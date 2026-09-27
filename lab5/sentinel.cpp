@@ -1,7 +1,7 @@
 // This program illustrates the use of a sentinel in a while loop.
 // The user is asked for monthly rainfall totals until a sentinel
 // value of -1 is entered. Then the total rainfall is displayed.
-// PLACE YOUR NAME HERE
+// Aayush Yadav
 #include <iostream>
 using namespace std;
 
